@@ -1,0 +1,283 @@
+.body {
+  margin: 0%;
+  background-color: whitesmoke;
+  margin-top: 0;
+}
+
+* {
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+.lava {
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 50px;
+  height: 42px;
+}
+
+.heroSection {
+  margin-top: 200px;
+}
+
+.tag h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 72px;
+}
+
+.tag p {
+  margin: 0;
+  color: #ababab;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.zurag:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.2);
+}
+
+marquee {
+  max-width: 1200px;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 21px;
+  flex-wrap: nowrap;
+}
+
+.zoomPhoto {
+  border-radius: 12px;
+  border: 2px solid none;
+  overflow: hidden;
+  width: 284px;
+  height: 400px;
+}
+
+.destinationTitle h2 {
+  font-size: 48px;
+  margin-top: 0;
+}
+
+.destinationTitle p {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ababab;
+  font-size: 24px;
+}
+
+.locationBoxs {
+  color: #16a94a;
+  font-weight: bold;
+  text-align: center;
+}
+
+.locationBox {
+  border-radius: 100%;
+  width: 56px;
+  height: 56px;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dottedSection {
+  border-left: dashed 2px black;
+  margin-left: 36px;
+  height: 30px;
+}
+
+.locationNames {
+  margin-top: -68px;
+  margin-left: 20px;
+}
+
+.locationName p {
+  color: #ababab;
+  margin: 0;
+}
+.locationName {
+  margin-top: 67px;
+}
+
+.locatoinSection {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.MapPhoto {
+  width: 692px;
+  height: 845px;
+}
+
+.destinationBox {
+  min-width: 1198px;
+  display: flex;
+  justify-content: center;
+  gap: 145px;
+  margin-top: 150px;
+}
+
+.price {
+  font-weight: bold;
+  text-align: end;
+  margin-right: 30px;
+  font-size: 32px;
+}
+
+.pricingTitle {
+  text-align: center;
+}
+.pricingTitle p {
+  color: #ababab;
+  font-size: 24px;
+}
+.pricingTitle h2 {
+  font-size: 48px;
+  margin-top: 0;
+}
+.pricingSection {
+  margin-top: 300px;
+}
+
+.pricingBox {
+  background-color: white;
+  width: 285px;
+  height: 370px;
+  border: 2px solid white;
+  border-radius: 24px;
+}
+.pricingBox:hover {
+  border: 2px solid #18ba51;
+}
+
+.pricingBox h2 {
+  margin: 0;
+  padding: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pricingBox ul {
+  height: 100px;
+  color: #ababab;
+  height: 190px;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.pricingBox li {
+  font-size: 20px;
+  line-height: 28.38px;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+.pricingBoxs {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.readySection {
+  height: 393px;
+  background-color: #171717;
+  margin-top: 250px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.readySection h2 {
+  font-size: 32px;
+}
+
+.readySectionTitle button {
+  width: 130px;
+  height: 44px;
+  background-color: #18ba51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 50px;
+  border: 0;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.readySectionTitle button:hover {
+  background-color: #139f44;
+}
+
+.readySectionTitle a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footerSection {
+  max-height: 228px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 120px;
+}
+
+.footerSection p {
+  color: white;
+  font-size: 28px;
+}
+
+.footerLinkSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.footerLinkSection button {
+  background-color: #303030;
+  border: 0;
+  color: white;
+  width: 167px;
+  height: 44px;
+  border-radius: 4px;
+}
+
+.footerLinkSection button:hover {
+  background-color: #272525;
+}
+
+.footerLinkSection a {
+  color: white;
+  text-decoration: none;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
